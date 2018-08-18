@@ -1,0 +1,22 @@
+.item{
+    font-size: 20px;
+    border-bottom:1px solid #666666;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.item>span:nth-child(1){
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.btn {
+    display: inline-block;
+    border:1px solid #428ddc;
+    padding: 5px 12px;
+    float: right;
+    border-radius: 6px;
+    font-size: 18px;
+}

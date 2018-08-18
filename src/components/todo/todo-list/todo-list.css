@@ -1,0 +1,34 @@
+.list-container{
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    text-align: left;
+    /*border:1px solid #428ddc;*/
+}
+.list{
+    border:1px solid #428ddc;
+}
+.list-container .add{
+    margin-top: 24px;
+    border:1px solid #428ddc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.list-container input{
+    outline: none;
+    border: none;
+    font-size: 24px;
+    width: 240px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.list-container .button{
+    font-size: 20px;
+    font-weight: bold;
+    border-left:1px solid #428ddc;
+    text-align: center;
+    width: 60px;
+    box-sizing: border-box;
+}
